@@ -53,14 +53,23 @@ const Index = () => {
       {/* About Section */}
       <section className="section-padding bg-secondary">
         <div className="max-w-5xl mx-auto">
-          <div className="animate-on-scroll opacity-0">
-            <h2 className="section-title">About</h2>
-            <p className="content-text mb-6">
-              "I am passionate about enhancing productivity and creativity with generative AI. At law.MIT.edu, I lead research and publishing endeavors to explore AI's applications in the legal sector. Through my consultancy, Civics.Com, I have trained thousands of lawyers and other professionals on the use of generative AI and directly assist companies in adopting AI to refine their processes and innovate their products, services, and business models."
-            </p>
-            <p className="content-text">
-              Daniel "Dazza" Greenwood is the founder of CIVICS.com, a boutique provider of professional consultancy services for legal technologies, automated transactions, privacy and data management, and technology strategy. Dazza is also a researcher at MIT Media Lab and Lecturer at MIT Connection Science where he is advancing the field of computational law and generative AI for law as Executive Director of law.MIT.edu
-            </p>
+          <div className="grid md:grid-cols-[300px_1fr] gap-12 items-start">
+            <div className="animate-on-scroll opacity-0">
+              <img 
+                src="/lovable-uploads/65fd2855-8b92-4581-82a6-5480e8e9c763.png" 
+                alt="Daniel 'Dazza' Greenwood" 
+                className="rounded-lg shadow-xl w-full max-w-[300px] mx-auto"
+              />
+            </div>
+            <div className="animate-on-scroll opacity-0">
+              <h2 className="section-title">About</h2>
+              <p className="content-text mb-6">
+                "I am passionate about enhancing productivity and creativity with generative AI. At law.MIT.edu, I lead research and publishing endeavors to explore AI's applications in the legal sector. Through my consultancy, Civics.Com, I have trained thousands of lawyers and other professionals on the use of generative AI and directly assist companies in adopting AI to refine their processes and innovate their products, services, and business models."
+              </p>
+              <p className="content-text">
+                Daniel "Dazza" Greenwood is the founder of CIVICS.com, a boutique provider of professional consultancy services for legal technologies, automated transactions, privacy and data management, and technology strategy. Dazza is also a researcher at MIT Media Lab and Lecturer at MIT Connection Science where he is advancing the field of computational law and generative AI for law as Executive Director of law.MIT.edu
+              </p>
+            </div>
           </div>
         </div>
       </section>
